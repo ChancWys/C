@@ -49,6 +49,6 @@
 
 int main()
 {
-
+	printf("heheeh\c");
 	return 0;
 }
