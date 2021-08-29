@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <string.h>
 
 //int main()
 //{
@@ -47,8 +48,48 @@
 //	return 0;
 //}
 
-int main()
-{
-	printf("heheeh\c");
-	return 0;
-}
+
+////×Ö·û´®
+//int main()
+//{
+//	"sdsdadxa";
+//	""£»//¿Õ×Ö·û´®
+//	return 0;
+//}
+
+//int main()
+//{
+//	char arr1[] = "abc";//Êý×é
+//	char arr2[] = { 'a','b','c',0 };
+//	printf("%s\n", arr1);
+//	printf("%s\n", arr2);
+//	return 0;
+//}
+//
+//int main()
+//{
+//	char arr1[] = "abc";
+//	char arr2[] = { 'a','b','c' ,0};
+//	printf("% d\n", strlen(arr1));//strlen -string length --¼ÆËã×Ö·û´®³¤¶È
+//	printf("% d\n", strlen(arr2));
+//	return 0;
+//}
+//
+//int main()
+//{
+//	printf("c:\\test\\learn\\test.c");
+//	return 0;
+//}
+
+//int main()
+//{
+//	printf("%s\n", "\"");
+//	return 0;
+//}
+
+//int main()
+//{
+//	printf("%d\n", strlen("c:\test\39\tect.c"));
+//	return 0;
+//}
+
