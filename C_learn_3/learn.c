@@ -51,9 +51,50 @@
 //	return 0;
 //}
 
+//int main()
+//{
+//	int a = 3.14;
+//	printf("%d\n", a);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a = 10, b = 20, max = 0;
+//	max = (a > b ? a : b);
+//	printf("%d\n", max);
+//	return 0;
+//}
+//void test()
+//{
+//	 static int a = 1;//a是一个静态局部变量
+//	a++;
+//	printf("%d\n", a);
+//}
+//int main()
+//{
+//	int i = 0;
+//	while (i<5)
+//	{
+//		test();
+//		i++;
+//	}
+//	return 0;
+//}
+
+
+#define MAX 100
+//#define 定义的标识符常量
+#define MAX(X,Y) (X>Y?X:Y)	//宏的定义
+//#define 可以定义宏-带参数
+
+
 int main()
 {
-	int a = 3.14;
-	printf("%d\n", a);
+	int a = 10, b = 20;
+	int max = 0;
+	//宏的方式
+	max = MAX(a, b);
+	printf("%d\n", max);
 	return 0;
 }
