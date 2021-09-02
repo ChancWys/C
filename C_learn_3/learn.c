@@ -83,18 +83,51 @@
 //}
 
 
-#define MAX 100
-//#define 定义的标识符常量
-#define MAX(X,Y) (X>Y?X:Y)	//宏的定义
-//#define 可以定义宏-带参数
+//#define MAX 100
+////#define 定义的标识符常量
+//#define MAX(X,Y) (X>Y?X:Y)	//宏的定义
+////#define 可以定义宏-带参数
+//
+//
+//int main()
+//{
+//	int a = 10, b = 20;
+//	int max = 0;
+//	//宏的方式
+//	max = MAX(a, b);
+//	printf("%d\n", max);
+//	return 0;
+//}
 
+
+//地址
+//int a = 10;//向内存申请4个字节的位置
+//
+//int main()
+//{
+//	int a = 10;//申请4个字节
+//	int* p = &a;//取地址a  //int*
+//	//有一种变量是用来存放地址的——指针变量
+//	printf("%p\n", &a);//%p打印地址
+//	printf("%p\n", p);
+//	*p=20;//*-解引用操作符
+//	return 0;
+//}
+//
+//int main()
+//{
+//	int a = 10;
+//	int* p = &a;
+//	*p = 20;//*-解引用操作符
+//	printf("a = %d\n", a);
+//	return 0;
+//}
 
 int main()
 {
-	int a = 10, b = 20;
-	int max = 0;
-	//宏的方式
-	max = MAX(a, b);
-	printf("%d\n", max);
+	char ch = 'w';
+	char* pc = &ch;
+	*pc = 'q';
+	printf("%c\n", ch);
 	return 0;
 }
