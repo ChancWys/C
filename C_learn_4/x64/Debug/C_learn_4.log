@@ -1,0 +1,4 @@
+﻿  learn.c
+D:\c\code\C\C_learn_4\learn.c(9,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\c\code\C\C_learn_4\learn.c(9,9): message : 请考虑在格式字符串中使用“%zd”
+  C_learn_4.vcxproj -> D:\c\code\C\C_learn_4\x64\Debug\C_learn_4.exe
